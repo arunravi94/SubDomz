@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Installing tools
 sudo apt-get install -y parallel jq python3 python3-pip unzip
