@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 hash parallel 2>/dev/null && printf "[parallel]$g Installed$e\n" || printf "[parallel]$r Install Manually.$e\n"
 hash jq 2>/dev/null && printf "[jq]$g Installed$e\n" || printf "[jq]$r Install Manually.$e\n"
 hash python3 2>/dev/null && printf "[python3]$g Installed$e\n" || printf "[python3]$r Install Manually.$e\n"
